@@ -1,0 +1,12 @@
+@mixin phone{
+  @media (max-width: $phoneWidth) { @content; }
+}
+@mixin tablet{
+  @media (max-width: $tabletWidth) { @content; }
+}
+@mixin desktop{
+  @media (max-width: $desktopWidth) { @content; }
+}
+@mixin largeDesktop{
+  @media (max-width: $largeDesktopWidth) { @content; }
+}
